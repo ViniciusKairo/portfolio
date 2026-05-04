@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { MailIcon } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const email = "seuemail@email.com";
-const githubUrl = "https://github.com/seu-usuario";
-const linkedinUrl = "https://www.linkedin.com/in/seu-usuario";
+const email = "viniciuskairo24@gmail.com";
+const githubUrl = "https://github.com/ViniciusKairo";
+const linkedinUrl = "https://www.linkedin.com/in/vinicius-kairo";
 
 export function Contact() {
   return (

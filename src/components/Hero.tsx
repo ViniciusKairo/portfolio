@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { ArrowDownIcon } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const githubUrl = "https://github.com/seu-usuario";
-const linkedinUrl = "https://www.linkedin.com/in/seu-usuario";
+const githubUrl = "https://github.com/ViniciusKairo";
+const linkedinUrl = "https://www.linkedin.com/in/vinicius-kairo";
 
 export function Hero() {
   return (
