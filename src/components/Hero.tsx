@@ -14,17 +14,19 @@ export function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <span className="hero-badge">Portfólio de Desenvolvimento</span>
+        <span className="hero-badge">Engenharia de Software · UniRV</span>
 
         <h1>
-          Desenvolvedor em formação, criando interfaces modernas com{" "}
+          Desenvolvedor em transição,
+          construindo aplicações com{" "}
           <span>React, TypeScript e Flutter.</span>
         </h1>
 
         <p>
-          Estou em transição para a área de desenvolvimento, com foco em
-          aplicações web e mobile, integração com banco de dados, autenticação,
-          regras de negócio e experiência do usuário.
+          Estudo Engenharia de Software e estou migrando para o desenvolvimento
+          após anos de experiência profissional em ambientes que exigem rigor com
+          dados, processos e atendimento. Tenho projetos práticos entregues e busco
+          minha primeira oportunidade como desenvolvedor.
         </p>
 
         <div className="hero-actions">
