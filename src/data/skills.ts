@@ -9,31 +9,31 @@ export const skills: Skill[] = [
   {
     name: "JavaScript",
     level: "Praticando",
-    description: "Manipulação de dados, funções, arrays, objetos e lógica.",
+    description: "Lógica, manipulação de dados, funções assíncronas e integração com APIs.",
   },
   {
     name: "TypeScript",
     level: "Estudando",
-    description: "Tipagem, interfaces, props, componentes e organização.",
+    description: "Tipagem estática, interfaces e organização de componentes React.",
   },
   {
     name: "React",
     level: "Praticando",
-    description: "Componentes, estado, props, renderização e hooks.",
+    description: "Componentes, hooks, estado, props e estrutura de SPAs.",
   },
   {
     name: "Flutter",
     level: "Projeto real",
-    description: "Aplicações mobile, navegação, telas e integração com backend.",
+    description: "Aplicações mobile com navegação, múltiplos perfis e integração com backend.",
   },
   {
     name: "Supabase",
     level: "Projeto real",
-    description: "Auth, banco de dados, storage, policies e Edge Functions.",
+    description: "Autenticação, banco de dados relacional, storage, policies e RLS.",
   },
   {
     name: "SQL",
     level: "Praticando",
-    description: "Consultas, relacionamentos, permissões e estrutura de dados.",
+    description: "Modelagem de dados, consultas, relacionamentos e controle de permissões.",
   },
 ];

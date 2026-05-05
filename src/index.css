@@ -113,17 +113,20 @@ a {
 
 /* Header */
 
-.header {
+.header-wrapper {
   position: fixed;
   top: 16px;
   left: 50%;
   z-index: 20;
   width: min(1120px, calc(100% - 32px));
   transform: translateX(-50%);
+}
+
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 18px;
+  padding: 14px 24px;
   border: 1px solid rgba(148, 163, 184, 0.24);
   border-radius: 999px;
   background: rgba(15, 23, 42, 0.72);
@@ -134,6 +137,7 @@ a {
 .logo {
   font-size: 20px;
   font-weight: 800;
+  flex-shrink: 0;
 }
 
 .logo span {
@@ -145,14 +149,22 @@ a {
   gap: 24px;
   font-size: 14px;
   color: #cbd5e1;
+  padding: 0 16px;
 }
 
 .nav a {
   transition: color 0.2s ease;
+  white-space: nowrap;
 }
 
 .nav a:hover {
   color: #38bdf8;
+}
+
+/* Botão hamburguer — oculto no desktop */
+
+.menu-toggle {
+  display: none;
 }
 
 /* Hero */
@@ -467,7 +479,7 @@ a {
   font-weight: 700;
 }
 
-/* Responsivo */
+/* ===== RESPONSIVO ===== */
 
 @media (max-width: 900px) {
   .hero {
@@ -486,6 +498,48 @@ a {
 
   .nav {
     display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(148, 163, 184, 0.24);
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.72);
+    color: #e2e8f0;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  /* MUDOU: saiu position absolute, entrou margin-top */
+  .nav-mobile {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px;
+    border: 1px solid rgba(148, 163, 184, 0.24);
+    border-radius: 20px;
+    background: rgba(15, 23, 42, 0.95);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+  }
+
+  .nav-mobile a {
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: #cbd5e1;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .nav-mobile a:hover {
+    background: rgba(56, 189, 248, 0.1);
+    color: #38bdf8;
   }
 }
 

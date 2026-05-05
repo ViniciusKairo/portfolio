@@ -70,17 +70,17 @@ export function Hero() {
 
         <pre>
           <code>{`const developer = {
-  name: "Vinicius Silva",
-  focus: ["React", "TypeScript", "Flutter"],
-  database: "Supabase",
-  goal: "Primeira vaga dev",
+  name: "Vinicius Kairo",
+  graduation: "Engenharia de Software · UniRV",
+  stack: ["React", "TypeScript", "Flutter"],
+  backend: "Supabase + REST APIs",
+  goal: "Primeira vaga como desenvolvedor",
 };
 
 function buildCareer() {
-  return developer.focus.map((skill) => {
-    return study(skill) + practice(skill);
-  });
-}`}</code>
+  return stack.map((skill) => study(skill) + build(skill));
+}`
+          }</code>
         </pre>
       </motion.div>
 

@@ -22,16 +22,19 @@ export function About() {
         transition={{ duration: 0.7 }}
       >
         <p>
-          Sou estudante em fase final de graduação e estou direcionando minha
-          carreira para desenvolvimento de software. Tenho trabalhado em projetos
-          acadêmicos e práticos envolvendo aplicações web e mobile, autenticação,
-          banco de dados, regras de acesso e organização de interfaces.
+          Estou no último período de Engenharia de Software na UniRV (Rio Verde – GO)
+          e direcionando minha carreira para o desenvolvimento de software. Trabalho
+          desde os 17 anos em diferentes setores — estoque, vendas e,
+          atualmente, análise de cadastro no Sicoob Unicidades — o que me deu
+          disciplina, visão de processo e atenção a dados que levo para o código.
         </p>
 
         <p>
-          Meu principal projeto atual é o Estética View, uma aplicação mobile
-          feita com Flutter e Supabase, com perfis de administrador, médico e
-          paciente, controle de procedimentos, imagens e permissões de acesso.
+          No desenvolvimento, tenho foco em aplicações web com React e TypeScript e
+          mobile com Flutter. Meu projeto mais completo até agora é o Estética View,
+          um aplicativo mobile com perfis de acesso diferenciados, controle de
+          procedimentos, imagens e integração com Supabase. Estou construindo este
+          portfólio como espaço central para os projetos criados.
         </p>
       </motion.div>
     </section>

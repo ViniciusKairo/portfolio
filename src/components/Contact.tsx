@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import { MailIcon } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MailIcon} from "lucide-react";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const email = "viniciuskairo24@gmail.com";
+const whatsappUrl = "https://wa.me/5564999900006";
 const githubUrl = "https://github.com/ViniciusKairo";
 const linkedinUrl = "https://www.linkedin.com/in/vinicius-kairo";
 
@@ -18,17 +19,23 @@ export function Contact() {
       >
         <span>Contato</span>
 
-        <h2>Vamos conversar?</h2>
+        <h2>Aberto a oportunidades</h2>
 
         <p>
-          Estou buscando oportunidades para iniciar minha atuação profissional
-          como desenvolvedor e continuar evoluindo com projetos reais.
+          Estou buscando minha primeira vaga como desenvolvedor júnior.
+          Se quiser conversar sobre projetos, oportunidades ou tirar dúvidas
+          sobre o meu trabalho, é só entrar em contato.
         </p>
 
         <div className="contact-links">
           <a href={`mailto:${email}`}>
             <MailIcon size={18} />
             Email
+          </a>
+
+          <a href={whatsappUrl} target="_blank" rel="noreferrer">
+            <FaWhatsapp size={18} />
+            WhatsApp
           </a>
 
           <a href={githubUrl} target="_blank" rel="noreferrer">
